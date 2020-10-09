@@ -1,0 +1,32 @@
+.react-data {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 15px;
+}
+
+.react-data .home {
+    cursor: pointer;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+
+.react-data .info {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    padding: 10px;;
+}
+
+.react-data .info .desc {
+    flex-grow: 1;
+}
+
+.react-data .info .remove {
+    align-self: flex-end;
+}
+
+.react-data .tag {
+    margin-left: 10px;
+}
+
+

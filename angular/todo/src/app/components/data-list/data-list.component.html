@@ -1,0 +1,13 @@
+<div [id]="index"  class="dataList">
+    <div class="info">
+      <div>
+        <a class="card-number" (click)="navigateToData($event, index, title, tag)" ><span class="badge badge-info">Click to View Card: {{index}}</span></a>
+        <span class="badge badge-info tag">Tag:  {{tag}}</span>
+      </div>
+      <div [id]="index" contentEditable="false" class="title card-title h5">{{title}}</div>
+      <div class="remove" [id]="tag" >
+        <app-button btnClass="btn-danger" label="Remove"></app-button>
+      </div>
+      
+    </div>
+  </div>
